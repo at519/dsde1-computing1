@@ -40,7 +40,10 @@ def palindrome_word(word):
 # like fullstops, commas, etc. Also do not consider whether the letter is
 # capital or not. 
 def palindrome_sentence(sentence):
-    return
+    if sentence == sentence [::-1]:
+        return 'palindrome'
+    else:
+        return 'not palindrome'
 
 # write a function that concatenates two sentences. First the function checks
 # whether the sentence meets the following criteria: it starts with a capital
@@ -58,7 +61,10 @@ def concatenate_sentences(sentenece1, sentence2):
 # write a function that checks whether there is a record with given key in the
 # dictionary. Return True or False.
 def index_exists(dictionary, key):
-    return
+    if value in dictionary:
+        return ['True']
+    else:
+        return ['False']
 
 # write a function which checks whether given value is stored in the
 # dictionary. Return True or False.
